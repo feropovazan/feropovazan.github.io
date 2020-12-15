@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 300px;
+  justify-content: flex-end;
+/*  justify-content: space-around/space-between/center/flex-end  */
+/*   flex-direction: row/row-reverse/column/column-reverse  */
+  flex-wrap: wrap;
+/*   ak by som nepouzil wrap, mal by som ich v jednom riadku ale za to zmensene velkosti, takze mi to na max width  ulozi do viac riadkov */
+}
+.green {
+  width: 150px;
+  height: 150px;
+  background: #51d400;
+}
+.yellow {
+  width: 150px;
+  height: 150px;
+  background: #ffd62a;
+}
+.purple {
+  width: 150px;
+  height: 150px;
+  background: #b02afe;
+}
