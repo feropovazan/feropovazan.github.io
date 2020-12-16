@@ -1,0 +1,128 @@
+body {
+  margin: auto;
+  width: 1600px;
+  font-family: 'Roboto', sans-serif;
+  }
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  background: #222;
+  height: 80px;
+  align-items: center;
+  font-size: 25px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: grey;
+  text-decoration: none;
+  }
+
+.container{
+  display: flex;
+/*   width: 1600px; */
+/*   justify-content: space-between; */
+/*   border: 1px solid green; */
+  align-items: flex-start;
+  
+}
+
+.box{
+  width: 600px;
+ flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.Anakin {
+  font-size: 70px;
+  }
+img {
+  width: 600px;
+  height: 500px;
+  margin-bottom: 100px;
+  }
+.header {
+  position: relative;
+  color: #222;
+}
+.HeaderText {
+  position: absolute;
+  top: 250px;
+  left: 320px;
+}
+main{
+/*   width: 50%; */
+/*   margin: 40px auto;  */
+  position: relative;
+  font-size: 25px;
+}
+ul, .intro{
+  line-height: 150%;
+  
+}
+ul{
+  margin-left: 50px;
+}
+
+blockquote::before {
+  content: '”';
+  font-size: 120px;
+  transform: rotate(0.5turn);
+  position: absolute;
+  top: -60px;
+  left: 10px;
+  }
+blockquote {
+  background: #444;
+  color: white;
+  diplay: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 50px;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  width: inherit;
+  max-width: inherit;
+  position: relative;
+  margin: 0px 20px 100px 0px;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 10px;
+  flex grow: 2;
+  border: 1px solid black;
+}
+
+#intro, #achievements, #experience , #training{
+  flex-grow: 7;
+/*   border: 1px solid black; */
+  width: 800px;
+/*   justify-content: flex-end; */
+flex-grow: 5;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+  }
+
+.text, .description{
+font-size: 20px;  
+}
+
+h2{
+    text-transform: uppercase;
+  margin-bottom: 50px;
+}
+h3, h4{
+  margin: 0;
+}
+.description{
+  margin-bottom: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#intro{
+  line-height: 150%;
+}
