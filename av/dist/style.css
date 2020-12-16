@@ -1,0 +1,19 @@
+ul{
+  background: #ffd62a;
+  width: 400px;
+  height: 150px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end; ak ich chcem uplne dole v rohu
+/*   align-items:center;
+  justify-content: space-between;  dostredu rozlozene*/
+ 
+}
+li{
+  background: #b02afe;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+   }
